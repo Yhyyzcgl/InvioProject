@@ -19,6 +19,7 @@ public class BaseClass {
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "5WH6R19829009302");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+        capabilities.setCapability(MobileCapabilityType.APP, "\\Users\\Yakup\\IdeaProjects\\AppiumProject\\src\\apps\\Google Maps_11.64.0701_Apkpure.apk");
         capabilities.setCapability("appPackage","com.google.android.apps.maps");
         capabilities.setCapability("appActivity","com.google.android.maps.MapsActivity");
         capabilities.setCapability("noReset",true);
