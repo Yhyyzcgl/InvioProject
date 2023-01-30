@@ -16,7 +16,7 @@
 # Proje Yapısının Açıklanması
 Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 
-![proje yapısı](https://user-images.githubusercontent.com/111223290/199602424-2b70d353-d20a-452b-a55a-3de7758f2ae9.png)
+![proje yapısı](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/apppppp.png)
 
 
 + **tests:** Testcaselerin yazılmış olduğu sınıfları içerir.İçerisinde 2 class mevcuttur.
