@@ -18,6 +18,9 @@ Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 
 ![proje yapısı](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/apppppp.png)
 
+https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/rec-screen%20(online-video-cutter.com).mp4
+
+
 
 + **tests:** Testcaselerin yazılmış olduğu sınıfları içerir.İçerisinde 2 class mevcuttur.
  
