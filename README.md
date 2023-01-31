@@ -7,7 +7,7 @@
 
 + Projeyi yapılandırmak için Maven repo kullanılmıştır.
 
-+ Web Sitesini test etmek için Selenium Test Otomasyon Aracı kullanılmıştır.
++ Web Sitesini tests etmek için Selenium Test Otomasyon Aracı kullanılmıştır.
 
 + Test yazım aracı olarak TestNG kütüphanesi kullanılmıştır.
 

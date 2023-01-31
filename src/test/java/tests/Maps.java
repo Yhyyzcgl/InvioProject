@@ -1,9 +1,11 @@
-package test;
+package tests;
 
 import io.appium.java_client.MobileElement;
-
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -13,22 +15,21 @@ import utils.BaseClass;
 import utils.Reusable;
 
 import java.net.MalformedURLException;
-
+import java.time.Duration;
 
 
 public class Maps extends BaseClass{
 
 
-    private static final Logger logger = LogManager.getLogger(Maps.class.getName());
+    private static Logger logger = (Logger) LogManager.getLogger(Maps.class.getName());
 
         @Test
-        public void test() throws MalformedURLException {
+        public void Maps() throws MalformedURLException {
 
 
         AndroidDriver driver = getAndroidDriver();
             logger.info("---Kullanıcı maps uygulamasını baslatir---");
 
-        /*
 
         Reusable.waitFor(8);
 
@@ -46,114 +47,87 @@ public class Maps extends BaseClass{
                     .waitAction(WaitOptions.waitOptions(Duration.ofMillis(200)))
                     .release()
                     .perform();
+            logger.info("----Kullanici alan kontrolu yapar----");
 
-         */
 
+        Reusable.waitFor(10);
 
-        Reusable.waitFor(8);
-        //restoran
         driver.findElementByXPath("//android.widget.Button[@content-desc=\"Restoranlar için arama yapın\"]").click();
         Reusable.waitFor(5);
-        logger.info("Kullanici restorand sekmesine tiklar");
+        logger.info("----Kullanici restorant sekmesine tiklar----");
 
 
-        /*
-        //temizle geri çık
         driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Temizle\"]").click();
         Reusable.waitFor(5);
-        //benzin
+
         driver.findElementByXPath("//android.widget.Button[@text=\"Benzin\"]").click();
         Reusable.waitFor(5);
-            logger.info("Kullanici benzin sekmesine tiklar");
-        //temizle geri çık
+            logger.info("----Kullanici benzin sekmesine tiklar----");
+
         driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Temizle\"]").click();
         Reusable.waitFor(5);
-        //marketler
+
         driver.findElementByXPath("//android.widget.Button[@text=\"Marketler\"]").click();
         Reusable.waitFor(5);
-            logger.info("Kullanici market sekmesine tiklar");
-        //temizle geri çık
+            logger.info("----Kullanici market sekmesine tiklar----");
+
         driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Temizle\"]").click();
         Reusable.waitFor(3);
 
-        //git
+
         driver.findElementByAndroidUIAutomator("UiSelector().resourceId(\"com.google.android.apps.maps:id/navigation_bar_item_icon_container\")").click();
         Reusable.waitFor(3);
 
-        //kayıtlar
+
         driver.findElementByXPath("//android.widget.FrameLayout[@content-desc=\"Kayıtlılar\"]").click();
         Reusable.waitFor(3);
+            logger.info("----Kullanici kayitlar sekmesine tiklar----");
 
-        //yenilkler
         driver.findElementByXPath("//android.widget.FrameLayout[@content-desc=\"Yenilikler\"]").click();
         Reusable.waitFor(3);
+            logger.info("----Kullanici yenilikler sekmesine tiklar----");
 
 
-        //kesfet
         driver.findElementByAndroidUIAutomator("UiSelector().resourceId(\"com.google.android.apps.maps:id/navigation_bar_item_icon_view\")").click();
         Reusable.waitFor(3);
 
 
-
-
-
-/*
-
         driver.findElementByXPath("//android.widget.ImageButton[@content-desc=\"Yol tarifi\"]").click();
         Reusable.waitFor(5);
-            logger.info("Kullanici navigasyonu baslatir");
+            logger.info("Kullanici yol tarifini baslatir");
 
-      //varıs noktası
+
         driver.findElementByXPath("//android.widget.TextView[@text=\"Varış noktası seçin\"]").click();
         Reusable.waitFor(3);
+            logger.info("Kullanici varis noktasina tiklar");
 
-       //sehir sec
        driver.findElementById("com.google.android.apps.maps:id/search_omnibox_edit_text").sendKeys("Erzurum");
        driver.findElementByAndroidUIAutomator("UiSelector().className(\"android.widget.TextView\").index(0)").click();
         Reusable.waitFor(3);
+            logger.info("Kullanici sehir secer");
 
 
-        //toplu taşıma
         MobileElement metro= (MobileElement) driver.findElementByXPath("//android.widget.LinearLayout[@content-desc=\"Toplu taşıma modu\"]");
         metro.click();
         Assert.assertTrue(metro.isDisplayed());
         System.out.println(metro.getAttribute("content-desc"));
         Assert.assertEquals(metro.getAttribute("content-desc"),"Toplu taşıma modu");
         Reusable.waitFor(3);
+            logger.info("Kullanici toplu tasima secenegine tiklar");
 
-       //baslat
+
        MobileElement baslat= (MobileElement) driver.findElementByXPath("//android.widget.Button[@content-desc=\"Navigasyonu başlat\"]");
        baslat.click();
         Reusable.waitFor(3);
-       //Kuzeybatıyönü
+            logger.info("Kullanici navigasyonu baslatir");
+
         MobileElement kuzeybatiYonu= (MobileElement) driver.findElementByAndroidUIAutomator("UiSelector().resourceId(\"com.google.android.apps.maps:id/top_cue_text\")");
         kuzeybatiYonu.isDisplayed();
         Reusable.waitFor(3);
-        //navigasyonu  kapat
+
         driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Navigasyonu kapat\"]").click();
         Reusable.waitFor(3);
-
-
-
-
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            logger.info("Kullanici navigasyonu kapatir");
 
 
     }
