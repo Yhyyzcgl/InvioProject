@@ -1,4 +1,5 @@
 # InvioProject
+Map uygulaması üzerinden belirli alanlarda işlemler yapılmıştır
 
 # Kullanılan Teknolojiler
 + IDE olarak IntelliJ kullanılmıştır.  
