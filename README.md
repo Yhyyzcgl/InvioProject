@@ -1,4 +1,5 @@
 # InvioProject
+Map uygulaması üzerinden belirtilen alanlarda test çalışması yapılmıştır
 
 # Kullanılan Teknolojiler
 + IDE olarak IntelliJ kullanılmıştır.  
@@ -16,16 +17,14 @@
 # Proje Yapısının Açıklanması
 Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 
-![proje yapısı](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/apppppp.png)
+![proje yapısı](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1.png)
 
 
-+ **tests:** Testcaselerin yazılmış olduğu sınıfları içerir.İçerisinde 2 class mevcuttur.
- 
-+ **utilities:** Dosyada sürekli lazım olan classlar ve methodlar bulunuyor. Kod tasarrufuna gitmeyi ve projeyi daha anlaşılır hale getirmeyi sağlıyor.İçerisinde 
-aşağıda yer alan sınıflar mevcuttur.
+# Projenin Jenkins'de Koşulması
+<img src="https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/rec-screen_1.gif" width="600">
 
-   
-   + **pom.xml:** Maven projesi ile gelen bir xml dosyasıdır. Projede kullanılacak olan frameworkleri tanımladığımız bir yapıdır.
+
+
 
 # Örnek Ekran Çıktıları
 + log yapısının çıkısı
@@ -33,7 +32,3 @@ aşağıda yer alan sınıflar mevcuttur.
 ![log ekrani](https://user-images.githubusercontent.com/111223290/199615654-546d0cb2-3ed9-4433-8407-4cbae47b86a6.png)
 
 
-+ TestNG Reports html raporunun görüntüsü
-
-![testNG report-1](https://user-images.githubusercontent.com/111223290/199615850-39f8ee54-1355-4eff-b0b0-d6e3b86a1ea0.png)
-![testNG report-2](https://user-images.githubusercontent.com/111223290/199615856-41472af8-80fc-425d-8c2b-1e8e2c13785c.png)
