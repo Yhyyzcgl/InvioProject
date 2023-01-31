@@ -1,5 +1,5 @@
 # InvioProject
-Map uygulaması üzerinden belirli alanlarda işlemler yapılmıştır
+Map uygulaması üzerinden belirtilen alanlarda test çalışması yapılmıştır
 
 # Kullanılan Teknolojiler
 + IDE olarak IntelliJ kullanılmıştır.  
@@ -17,7 +17,7 @@ Map uygulaması üzerinden belirli alanlarda işlemler yapılmıştır
 # Proje Yapısının Açıklanması
 Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 
-![proje yapısı](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/apppppp.png)
+![proje yapısı](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1.png)
 
 
 # Projenin Jenkins'de Koşulması
