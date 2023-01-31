@@ -24,13 +24,6 @@ Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 
 
 
-+ **tests:** Testcaselerin yazılmış olduğu sınıfları içerir.İçerisinde 2 class mevcuttur.
- 
-+ **utilities:** Dosyada sürekli lazım olan classlar ve methodlar bulunuyor. Kod tasarrufuna gitmeyi ve projeyi daha anlaşılır hale getirmeyi sağlıyor.İçerisinde 
-aşağıda yer alan sınıflar mevcuttur.
-
-   
-   + **pom.xml:** Maven projesi ile gelen bir xml dosyasıdır. Projede kullanılacak olan frameworkleri tanımladığımız bir yapıdır.
 
 # Örnek Ekran Çıktıları
 + log yapısının çıkısı
