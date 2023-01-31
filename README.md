@@ -18,7 +18,9 @@ Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 
 ![proje yapısı](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/apppppp.png)
 
-https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/rec-screen%20(online-video-cutter.com).mp4
+
+# Projenin Jenkins'de Koşulması
+<img src="https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/rec-screen_1.gif" width="600">
 
 
 
