@@ -29,6 +29,6 @@ Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 # Örnek Ekran Çıktıları
 + log yapısının çıkısı
 
-![log ekrani](https://user-images.githubusercontent.com/111223290/199615654-546d0cb2-3ed9-4433-8407-4cbae47b86a6.png)
+![log ekrani](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/%C4%B1nfoo.png)
 
 
