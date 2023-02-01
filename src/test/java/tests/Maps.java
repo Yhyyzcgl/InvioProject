@@ -60,30 +60,28 @@ public class Maps extends BaseClass{
 
 
         driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Temizle\"]").click();
-        Reusable.waitFor(5);
+
 
         driver.findElementByXPath("//android.widget.Button[@text=\"Benzin\"]").click();
         Reusable.waitFor(5);
             logger.info("----Kullanici benzin sekmesine tiklar----");
 
         driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Temizle\"]").click();
-        Reusable.waitFor(5);
+
 
         driver.findElementByXPath("//android.widget.Button[@text=\"Marketler\"]").click();
         Reusable.waitFor(5);
             logger.info("----Kullanici market sekmesine tiklar----");
 
         driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Temizle\"]").click();
-        Reusable.waitFor(3);
 
 
 
         driver.findElementByAndroidUIAutomator("UiSelector().resourceId(\"com.google.android.apps.maps:id/navigation_bar_item_icon_container\")").click();
-        Reusable.waitFor(5);
+
 
 
         driver.findElementByXPath("//android.widget.FrameLayout[@content-desc=\"Kayıtlılar\"]").click();
-        Reusable.waitFor(5);
             logger.info("----Kullanici kayitlar sekmesine tiklar----");
 
         driver.findElementByXPath("//android.widget.FrameLayout[@content-desc=\"Yenilikler\"]").click();
@@ -92,21 +90,17 @@ public class Maps extends BaseClass{
 
 
         driver.findElementByAndroidUIAutomator("UiSelector().resourceId(\"com.google.android.apps.maps:id/navigation_bar_item_icon_view\")").click();
-        Reusable.waitFor(5);
 
 
         driver.findElementByXPath("//android.widget.ImageButton[@content-desc=\"Yol tarifi\"]").click();
-        Reusable.waitFor(5);
             logger.info("----Kullanici yol tarifini baslatir----");
 
 
         driver.findElementByXPath("//android.widget.TextView[@text=\"Varış noktası seçin\"]").click();
-        Reusable.waitFor(5);
             logger.info("----Kullanici varis noktasina tiklar----");
 
        driver.findElementById("com.google.android.apps.maps:id/search_omnibox_edit_text").sendKeys("Erzurum");
        driver.findElementByAndroidUIAutomator("UiSelector().className(\"android.widget.TextView\").index(0)").click();
-        Reusable.waitFor(3);
             logger.info("----Kullanici sehir secer----");
 
 
@@ -115,10 +109,12 @@ public class Maps extends BaseClass{
         Assert.assertTrue(metro.isDisplayed());
         System.out.println(metro.getAttribute("content-desc"));
         Assert.assertEquals(metro.getAttribute("content-desc"),"Toplu taşıma modu");
-        Reusable.waitFor(3);
-            logger.info("Kullanici toplu tasima secenegine tiklar");
+        Reusable.waitFor(5);
+            logger.info("----Kullanici toplu tasima secenegine tiklar----");
 
 
+            driver.findElementByXPath("//android.widget.LinearLayout[@content-desc=\"Yaya modu: 1 gün\"]").click();
+            logger.info("----Kullanici yaya modu secenegine tiklar----");
 
 
        MobileElement baslat= (MobileElement) driver.findElementByXPath("//android.widget.Button[@content-desc=\"Navigasyonu başlat\"]");
@@ -129,7 +125,6 @@ public class Maps extends BaseClass{
         MobileElement kuzeybatiYonu= (MobileElement) driver.findElementByAndroidUIAutomator("UiSelector().resourceId(\"com.google.android.apps.maps:id/top_cue_text\")");
         kuzeybatiYonu.isDisplayed();
         Reusable.waitFor(5);
-
 
 
         driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Navigasyonu kapat\"]").click();

@@ -16,8 +16,8 @@ public class BaseClass {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "5WH6R19829009302");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         capabilities.setCapability(MobileCapabilityType.APP, "\\Users\\Yakup\\IdeaProjects\\AppiumProject\\src\\apps\\Google Maps_11.64.0701_Apkpure.apk");
         capabilities.setCapability("appPackage","com.google.android.apps.maps");
