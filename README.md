@@ -20,6 +20,14 @@ Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 ![proje yapısı](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1%C4%B1.png)
 
 
++ **apps:** Genellikle mobil cihazlar için yazılmış uygulamaları tanımlar
+
++ **test:** Testcaselerin yazılmış olduğu sınıfları içerir
+
++ **log4j:** Uygulamalardaki olayların ve hata mesajlarının kaydedilmesini, incelenmesini ve yönetilmesini sağlar.
+
++ **baseclass:** Bir programlama dillerinde bir sınıfın diğer sınıflardan miras almasına olanak tanıyan bir yapıdır.Bu sayede, kod tekrarını önler ve daha organize ve mantıklı bir yapı oluşmasına yardımcı olur.
+
 # Projenin Jenkins'de Koşulması
 <img src="https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/rec-screen_1.gif" width="600">
 
