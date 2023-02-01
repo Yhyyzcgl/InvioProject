@@ -40,3 +40,13 @@ Projede aşağıda görmüş olduğunuz yapıyı kullandım;
 ![log ekrani](https://github.com/Yhyyzcgl/mobilTesting/blob/main/src/%C4%B1nfoo.png)
 
 
+
+<a href="https://www.linkedin.com/in/yhyyzcgl/" id="ember217" class="ember-view block">
+      <div>
+ <img width="64" title="Yahya Yazıcıoğlu" src="https://media.licdn.com/dms/image/D4D35AQG4d6BVq5uDMg/profile-framedphoto-shrink_200_200/0/1674925848563?e=1675846800&v=beta&t=hjvLUw9x_3XFrA2PH01dBAasmlgouvw4t9W8Cy_5O_k"" height="64" alt="Yahya Yazıcıoğlu" id="ember804" class="pv-top-card-profile-picture__image pv-top-card-profile-picture__image--show ember-view">
+     </div>
+      <div class="t-16 t-black t-bold">
+       Yahya Yazıcıoğlu
+      </div>
+    </a>    
+
